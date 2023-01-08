@@ -9,3 +9,9 @@ print(string[:100])
 
 # 文字列を超える数を始めのインデックスに指定→文字列を何も返さない
 print(string[100:])
+
+# 文字列にないインデックスを指定→IndexError
+# print(string[100])
+
+# 文字列を部分的に書き換え→TypeError
+string[0] = 'A'
