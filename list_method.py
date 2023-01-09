@@ -53,6 +53,10 @@ print('-- reverse')
 l.reverse()
 print(l)
 
+print('-- copy')
+l1 = l.copy()
+print(l1)
+
 print('-- clear')
 l.clear()
 print(l)
@@ -70,4 +74,3 @@ print(l5)
 
 l6 = [x**2 for x in range(10) if x % 2 == 0]
 print(l6)
-  
