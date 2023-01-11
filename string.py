@@ -14,4 +14,26 @@ print(string[100:])
 # print(string[100])
 
 # 文字列を部分的に書き換え→TypeError
-string[0] = 'A'
+# string[0] = 'A'
+
+print()
+string = 'a'
+print(ord(string))
+print(chr(100))
+
+string = 'GHDAKTSB'
+for s in string:
+  print(s, end='')
+
+print()
+string2 = ''
+for s in sorted(string):
+  string2 += s
+print(string2)
+
+for s1, s2 in zip(string, string2):
+  print(s1, s2)
+
+for s3 in zip(string, string2):
+  print(s3)
+
