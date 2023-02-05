@@ -7,5 +7,13 @@ df1 = pd.DataFrame({
 })
 print(df1)
 
+print(' ********** ')
+s1 = pd.Series(
+  ['Ken', 'Taro', 'Hanako'],
+  index=[1,2,3]
+)
+print(s1)
+
+print(' ********** ')
 df = pd.read_excel('pandas_test/data.xlsx')
 print(df)
