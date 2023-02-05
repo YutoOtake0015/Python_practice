@@ -37,3 +37,12 @@ print(df.iloc[[1,2], [1,3]])
 
 print(' 8:********** ')
 print(df['Name'])
+
+# ブールインデックス１
+print(' 9:********** ')
+print(df[[True, True, False, False, True]])
+
+# ブールインデックス２
+print(' 10:********** ')
+# 複数条件は()で囲まないとエラーになる
+print(df[(df['Address'] == 'Tokyo') | (df['Age'] > 20)])
