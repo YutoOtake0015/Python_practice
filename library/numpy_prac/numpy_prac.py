@@ -42,7 +42,7 @@ print(r1)
 print(r2)
 
 # 要素をメモリ上から取得した配列
-# 高速に配列を作成可能
+# 高速に配列を作成
 print('empty')
 e1 = np.empty(3)
 e2 = np.empty((2, 3))
